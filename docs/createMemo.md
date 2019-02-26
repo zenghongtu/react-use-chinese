@@ -1,10 +1,9 @@
 # `createMemo`
 
-Hook factory, receives a function to be memoized, returns a memoized React hook,
-which receives the same arguments and returns the same result as the original function.
+钩子（Hook）工厂，接收一个要被记忆的函数，返回一个带有记忆功能的 React 钩子，该钩子接收到相同的参数时返回和原始函数相同的结果。
 
 
-## Usage
+## 用法
 
 ```jsx
 import {createMemo} from 'react-use';
@@ -29,7 +28,7 @@ const Demo = () => {
 ```
 
 
-## Reference
+## 参考
 
 ```js
 const useMemoFn = createMemo(fn);

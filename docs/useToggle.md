@@ -1,8 +1,8 @@
 # `useToggle`
 
-React state hook that tracks value of a boolean.
+React 状态钩子，用于追踪布尔型值。
 
-`useBoolean` is an alias for `useToggle`.
+ `useBoolean` 是 `useToggle` 的别称。
 
 
 ## 用法

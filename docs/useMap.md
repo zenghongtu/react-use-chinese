@@ -1,6 +1,6 @@
 # `useMap`
 
-React state hook that tracks a value of an object.
+React 状态钩子，用于追踪对象型值。
 
 
 ## 用法

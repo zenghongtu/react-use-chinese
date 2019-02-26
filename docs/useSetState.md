@@ -1,8 +1,6 @@
 # `useSetState`
 
-React state hook that creates `setState` method which works similar to how
-`this.setState` works in class components&mdash;it merges object changes into
-current state.
+React 状态钩子，用于创建和 `this.setState` 在类组件中作用相似的 `setState` 方法--它将更改的对象合并到当前状态中。
 
 
 ## 用法

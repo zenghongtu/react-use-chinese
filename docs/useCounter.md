@@ -1,9 +1,8 @@
 # `useCounter`
 
-React state hook that tracks a numeric value.
+React 状态钩子，用于追踪数值型值。
 
-`useNumber` is an alias for `useCounter`.
-
+`useNumber` 是 `useCounter` 的别称。
 
 ## 用法
 

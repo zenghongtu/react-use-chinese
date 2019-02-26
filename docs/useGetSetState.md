@@ -1,6 +1,6 @@
 # `useGetSetState`
 
-A mix of `useGetSet` and `useGetSetState`.
+`useGetSet` 和 `useGetSetState` 的混合。
 
 
 ## 用法

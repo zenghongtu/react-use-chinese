@@ -1,6 +1,6 @@
 # `useList`
 
-React state hook that tracks a value of an array.
+React 状态钩子，用于追踪数组型值。
 
 
 ## 用法

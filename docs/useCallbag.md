@@ -1,6 +1,6 @@
 # `useCallbag`
 
-React state hook that tracks the latest value of a callbag.
+React 状态钩子，用于追踪 callbag 最新值。
 
 
 ## 用法
