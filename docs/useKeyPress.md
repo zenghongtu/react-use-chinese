@@ -1,12 +1,8 @@
 # `useKeyPress`
 
-React UI sensor hook that detects when the user is pressing a specific
-key on their keyboard.
+React 用户界面传感器钩子，用于检测用户何时按下键盘上的特殊键。
 
-Complex bindings like detecting when multiple keys are held down at the same
-time or requiring them to be held down in a specified order are also available
-via [KeyboardJS key combos](https://github.com/RobertWHurst/KeyboardJS).
-Check its documentation for further details on how to make combo strings.
+通过[KeyboardJS key combos](https://github.com/RobertWHurst/KeyboardJS)可以使用复杂的绑定，如检测何时同时按住多个建或要求他们按照指定的顺序按住它们。有关如何创建组合字符串的更多详细内容，请查阅其文档。
 
 ## 用法
 

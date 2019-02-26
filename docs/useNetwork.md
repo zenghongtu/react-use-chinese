@@ -1,6 +1,6 @@
 # `useNetwork`
 
-React sensor hook that tracks connected hardware devices. Returns:
+React 传感器钩子，用于跟踪连接的硬件设备。返回：
 
 ```json
 {

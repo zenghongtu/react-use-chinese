@@ -1,8 +1,8 @@
 # `useOrientation`
 
-React sensor hook that tracks screen orientation of user's device.
+React 传感器钩子，跟踪用户设备的屏幕方向。
 
-Returns state in the following shape
+以以下形式返回状态：
 
 ```js
 {

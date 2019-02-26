@@ -1,6 +1,6 @@
 # `useMotion`
 
-React sensor hook that uses device's acceleration sensor to track its motions.
+React 传感器钩子，使用设备的加速度传感器跟踪其运动。
 
 
 ## 用法

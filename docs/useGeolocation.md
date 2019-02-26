@@ -1,6 +1,6 @@
 # `useGeolocation`
 
-React sensor hook that tracks user's geographic location.
+React 传感器钩子，用于追踪用户地理位置。
 
 
 ## 用法

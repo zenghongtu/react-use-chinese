@@ -1,13 +1,10 @@
 # `useHover` and `useHoverDirty`
 
-React UI sensor hooks that track if some element is being hovered
-by a mouse.
+React 用户界面传感器钩子，用于追踪某个元素是否有鼠标悬停。
 
-- `useHover` accepts a React element or a function that returns one,
-`useHoverDirty` accepts React ref.
-- `useHover` sets react `onMouseEnter` and `onMouseLeave` events,
-`useHoverDirty` sets DOM `onmouseover` and `onmouseout` events.
-
+- `useHover` 接收一个 React 元素或者返回一个元素的函数，`useHoverDirty` 接收 React ref。
+- `useHover` 设置 react `onMouseEnter` 和 `onMouseLeave` 事件,
+`useHoverDirty` 设置 DOM `onmouseover` 和 `onmouseout` 事件.
 
 ## 用法
 

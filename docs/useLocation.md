@@ -1,8 +1,8 @@
 # `useLocation`
 
-React sensor hook that tracks brower's location.
+React 传感器钩子，用于追踪浏览器的位置。
 
-For Internet Explorer you need to [install a polyfill](https://github.com/streamich/react-use/issues/73).
+对于 Internet Explorer，你需要安装[polyfill](https://github.com/streamich/react-use/issues/73)。
 
 
 ## 用法

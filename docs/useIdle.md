@@ -1,7 +1,6 @@
 # `useIdle`
 
-React sensor hook that tracks if user on the page is idle.
-
+React 状态钩子，用于追踪页面上的用户是否空闲。
 
 ## 用法
 
@@ -26,5 +25,5 @@ const Demo = () => {
 useIdle(ms, initialState);
 ```
 
-- `ms` &mdash; time in milliseconds after which to consider use idle, defaults to `60e3` &mdash; one minute.
-- `initialState` &mdash; whether to consider user initially idle, defaults to false.
+- `ms` &mdash; 考虑使用空闲时间的毫秒时间, 默认为 `60e3` &mdash; 1分钟。
+- `initialState` &mdash; 是否考虑用户初始空闲，默认为 false。

@@ -1,6 +1,6 @@
 # `useMedia`
 
-React sensor hook that tracks state of a CSS media query.
+React 传感器钩子，用于跟踪CSS媒体查询的状态。
 
 
 ## 用法

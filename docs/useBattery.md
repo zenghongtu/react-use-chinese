@@ -1,7 +1,6 @@
 # `useBattery`
 
-React sensor hook that tracks battery status.
-
+React 传感器钩子，用于追踪电池状态。
 
 ## 用法
 

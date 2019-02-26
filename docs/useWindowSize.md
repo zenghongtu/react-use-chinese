@@ -1,6 +1,6 @@
 # `useWindowSize`
 
-React sensor hook that tracks dimensions of the browser window.
+React 传感器钩子，用于跟踪浏览器窗口的大小。
 
 
 ## 用法

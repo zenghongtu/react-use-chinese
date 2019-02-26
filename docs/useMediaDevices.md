@@ -1,6 +1,6 @@
 # `useMediaDevices`
 
-React sensor hook that tracks connected hardware devices.
+React 传感器钩子，用于跟踪连接的硬件设备。
 
 
 ## 用法
