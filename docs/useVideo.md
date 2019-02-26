@@ -1,6 +1,6 @@
 # `useVideo`
 
-Creates `<video>` element, tracks its state and exposes playback controls.
+创建 `<video>` 元素，追踪其状态并暴露播放控件。
 
 
 ## 用法
@@ -42,14 +42,13 @@ const [video, state, controls, ref] = useVideo(props);
 const [video, state, controls, ref] = useVideo(<video {...props}/>);
 ```
 
-`video` is React's `<video>` element that you have to insert somewhere in your
-render tree, for example:
+`video` 是 React 的 `<video>` 元素，你必须在渲染树中的某处插入，例如：
 
 ```jsx
 <div>{video}</div>
 ```
 
-`state` tracks the state of the video and has the following shape:
+`state` 追踪音频的状态，并具有以下状态：
 
 ```json
 {
@@ -67,8 +66,7 @@ render tree, for example:
 }
 ```
 
-`controls` is a list collection of methods that allow you to control the
-playback of the video, it has the following interface:
+`controls` 是一个方法列表集合，运行你控制视频的播放，它有以下接口：
 
 ```ts
 interface AudioControls {
@@ -81,7 +79,6 @@ interface AudioControls {
 }
 ```
 
-`ref` is a React reference to HTML `<video>` element, you can access the element by
-`ref.current`, note that it may be `null`.
+`ref` 是对 HTML `<video>` 元素的 React 引用，你可以通过 `ref.current` 访问该元素，注意它可能是 `null`。
 
-And finally, `props` &mdash; all props that `<video>` accepts.
+最后，`props` &mdash; `<video>` 接收所有的属性。

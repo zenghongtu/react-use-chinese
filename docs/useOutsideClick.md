@@ -1,7 +1,6 @@
 # `useOutsideClick`
 
-React UI hook that triggers a callback when user
-clicks outside the target element.
+React 用户界面钩子，当用户单击目标元素外部时触发回调。
 
 
 ## 用法

@@ -1,6 +1,6 @@
 # `useSpeech`
 
-React UI hook that synthesizes human voice that speaks a given string.
+React 用户界面钩子，用于合成说出给定字符串的人声。
 
 [![](https://img.shields.io/badge/demo-useSpeech-green.svg)](https://codesandbox.io/s/n090mqz69m)
 

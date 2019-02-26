@@ -1,6 +1,6 @@
 # `useWait`
 
-`useWait` is a React Hook helps to manage multiple loading states on the page without any conflict. It's based on a very simple idea that manages an `Array` of multiple loading states. The built-in `Wait` component listens its registered loader and immediately become loading state.
+`useWait` 是一个 React 钩子，可以帮助管理页面上的多个加载状态而不会产生任何冲突。它基于一个通过管理多个加载状态 `Array` 的简单想法。内置的 Wait 组件监听其注册的加载器并立即进入加载状态。
 
 ## 用法
 
@@ -23,7 +23,7 @@ function UserCreateButton() {
 }
 ```
 
-And you should wrap your `App` with `Waiter` component. It's actually a `Context.Provider` that provides a loading context to the component tree.
+你应该用 `Waiter` 组件包装你的 `App`。它其实是一个 `Context.Provider`，提供一个加载上下文给组件树。
 
 ```jsx
 const rootElement = document.getElementById("root");
