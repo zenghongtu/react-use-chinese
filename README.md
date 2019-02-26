@@ -31,66 +31,65 @@
 </div>
 
 - [**Sensors**](./docs/Sensors.md)
-  - [`useBattery`](./docs/useBattery.md) &mdash; tracks device battery state. [![][img-demo]](https://codesandbox.io/s/qlvn662zww)
-  - [`useGeolocation`](./docs/useGeolocation.md) &mdash; tracks geo location state of user's device.
-  - [`useHover` and `useHoverDirty`](./docs/useHover.md) &mdash; tracks mouse hover state of some element. [![][img-demo]](https://codesandbox.io/s/zpn583rvx)
-  - [`useIdle`](./docs/useIdle.md) &mdash; tracks whether user is being inactive.
-  - [`useKeyPress`](./docs/useKeyPress.md) &mdash; tracks whether a keyboard key&mdash;or set of keys&mdash;was pressed.
-  - [`useLocation`](./docs/useLocation.md) &mdash; tracks page navigation bar location state.
-  - [`useMedia`](./docs/useMedia.md) &mdash; tracks state of a CSS media query.
-  - [`useMediaDevices`](./docs/useMediaDevices.md) &mdash; tracks state of connected hardware devices.
-  - [`useMotion`](./docs/useMotion.md) &mdash; tracks state of device's motion sensor.
-  - [`useNetwork`](./docs/useNetwork.md) &mdash; tracks state of user's internet connection.
-  - [`useOrientation`](./docs/useOrientation.md) &mdash; tracks state of device's screen orientation.
-  - [`useSize`](./docs/useSize.md) &mdash; tracks some HTML element's dimensions.
-  - [`useWindowSize`](./docs/useWindowSize.md) &mdash; tracks `Window` dimensions. [![][img-demo]](https://codesandbox.io/s/m7ln22668)
+  - [`useBattery`](./docs/useBattery.md) &mdash; 跟踪设备电池状态。 [![][img-demo]](https://codesandbox.io/s/qlvn662zww)
+  - [`useGeolocation`](./docs/useGeolocation.md) &mdash; 跟踪用户设备的地理位置状态。
+  - [`useHover` and `useHoverDirty`](./docs/useHover.md) &mdash; 跟踪鼠标悬停某个元素的状态。 [![][img-demo]](https://codesandbox.io/s/zpn583rvx)
+  - [`useIdle`](./docs/useIdle.md) &mdash; 跟踪用户是否处于非活动状态。
+  - [`useKeyPress`](./docs/useKeyPress.md) &mdash; 跟踪是否按下了键盘键或一组键。
+  - [`useLocation`](./docs/useLocation.md) &mdash; 跟踪页面导航栏的位置状态。
+  - [`useMedia`](./docs/useMedia.md) &mdash; 跟踪CSS媒体查询的状态。
+  - [`useMediaDevices`](./docs/useMediaDevices.md) &mdash; 跟踪连接的硬件设备的状态。
+  - [`useMotion`](./docs/useMotion.md) &mdash; 跟踪设备的运动传感器的状态。
+  - [`useNetwork`](./docs/useNetwork.md) &mdash; 跟踪用户的互联网连接状态。
+  - [`useOrientation`](./docs/useOrientation.md) &mdash; 跟踪设备屏幕方向的状态。
+  - [`useSize`](./docs/useSize.md) &mdash; 跟踪一些HTML元素的尺寸。
+  - [`useWindowSize`](./docs/useWindowSize.md) &mdash;  跟踪 `Window` 大小. [![][img-demo]](https://codesandbox.io/s/m7ln22668)
     <br/>
     <br/>
-- [**UI**](./docs/UI.md)
-  - [`useAudio`](./docs/useAudio.md) &mdash; plays audio and exposes its controls. [![][img-demo]](https://codesandbox.io/s/2o4lo6rqy)
-  - [`useOutsideClick`](./docs/useOutsideClick.md) &mdash; triggers callback when user clicks outside target area.
-  - [`useSpeech`](./docs/useSpeech.md) &mdash; synthesizes speech from a text string. [![][img-demo]](https://codesandbox.io/s/n090mqz69m)
-  - [`useVideo`](./docs/useVideo.md) &mdash; plays video, tracks its state, and exposes playback controls.
-  - [`useWait`](./docs/useWait.md) &mdash; complex waiting management for UIs.
+  - [`useAudio`](./docs/useAudio.md) &mdash; 播放音频并公开其控件。 [![][img-demo]](https://codesandbox.io/s/2o4lo6rqy)
+  - [`useOutsideClick`](./docs/useOutsideClick.md) &mdash; 当用户点击目标区域外时触发回调。
+  - [`useSpeech`](./docs/useSpeech.md) &mdash; 从文本字符串合成语音。 [![][img-demo]](https://codesandbox.io/s/n090mqz69m)
+  - [`useVideo`](./docs/useVideo.md) &mdash; 播放视频，跟踪其状态，以及公开播放控件。
+  - [`useWait`](./docs/useWait.md) &mdash; UI的复杂等待管理。
     <br/>
     <br/>
 - [**Animations**](./docs/Animations.md)
-  - [`useRaf`](./docs/useRaf.md) &mdash; re-renders component on each `requestAnimationFrame`.
-  - [`useSpring`](./docs/useSpring.md) &mdash; interpolates number over time according to spring dynamics.
-  - [`useTimeout`](./docs/useTimeout.md) &mdash; returns true after a timeout.
-  - [`useTween`](./docs/useTween.md) &mdash; re-renders component, while tweening a number from 0 to 1. [![][img-demo]](https://codesandbox.io/s/52990wwzyl)
-  - [`useUpdate`](./docs/useUpdate.md) &mdash; returns a callback, which re-renders component when called.
+  - [`useRaf`](./docs/useRaf.md) &mdash; 在每个`requestAnimationFrame`上重新呈现组件。
+  - [`useSpring`](./docs/useSpring.md) &mdash; 根据弹簧动力学随时间插入数字。
+  - [`useTimeout`](./docs/useTimeout.md) &mdash; 超时后返回true。
+  - [`useTween`](./docs/useTween.md) &mdash; 重新渲染组件，同时补间0到1之间的数字。 [![][img-demo]](https://codesandbox.io/s/52990wwzyl)
+  - [`useUpdate`](./docs/useUpdate.md) &mdash; 返回一个回调，在调用时重新呈现组件。
     <br/>
     <br/>
 - [**Side-effects**](./docs/Side-effects.md)
-  - [`useAsync`](./docs/useAsync.md) &mdash; resolves an `async` function.
-  - [`useCss`](./docs/useCss.md) &mdash; dynamically adjusts CSS.
-  - [`useFavicon`](./docs/useFavicon.md) &mdash; sets favicon of the page.
-  - [`useLocalStorage`](./docs/useLocalStorage.md) &mdash; manages a value in `localStorage`.
-  - [`useSessionStorage`](./docs/useSessionStorage.md) &mdash; manages a value in `sessionStorage`.
-  - [`useTitle`](./docs/useTitle.md) &mdash; sets title of the page.
-  - [`useDebounce`](./docs/useDebounce.md) &mdash; debounces a function.
+  - [`useAsync`](./docs/useAsync.md) &mdash; 解析异步函数。
+  - [`useCss`](./docs/useCss.md) &mdash; 动态调整CSS。
+  - [`useFavicon`](./docs/useFavicon.md) &mdash; 设置页面的favicon。
+  - [`useLocalStorage`](./docs/useLocalStorage.md) &mdash; 管理`localStorage`中的值。
+  - [`useSessionStorage`](./docs/useSessionStorage.md) &mdash; 管理`sessionStorage`中的值。
+  - [`useTitle`](./docs/useTitle.md) &mdash; 设置页面标题。
+  - [`useDebounce`](./docs/useDebounce.md) &mdash; 去抖函数。
     <br/>
     <br/>
 - [**Lifecycles**](./docs/Lifecycles.md)
-  - [`useLifecycles`](./docs/useLifecycles.md) &mdash; calls `mount` and `unmount` callbacks.
-  - [`useRefMounted`](./docs/useRefMounted.md) &mdash; tracks if component is mounted.
-  - [`useLogger`](./docs/useLogger.md) &mdash; logs in console as component goes through life-cycles.
-  - [`useMount`](./docs/useMount.md) &mdash; calls `mount` callbacks.
-  - [`useUnmount`](./docs/useUnmount.md) &mdash; calls `unmount` callbacks.
+  - [`useLifecycles`](./docs/useLifecycles.md) &mdash; 调用`mount`和`unmount`回调。
+  - [`useRefMounted`](./docs/useRefMounted.md) &mdash; 跟踪组件是否已挂载。
+  - [`useLogger`](./docs/useLogger.md) &mdash; 在组件经历生命周期时登录控制台。
+  - [`useMount`](./docs/useMount.md) &mdash; 调用`mount`回调。
+  - [`useUnmount`](./docs/useUnmount.md) &mdash; 调用unmount回调。
     <br/>
     <br/>
 - [**State**](./docs/State.md)
-  - [`createMemo`](./docs/createMemo.md) &mdash; factory of memoized hooks.
-  - [`useCallbag`](./docs/useCallbag.md) &mdash; tracks latest value of a callbag.
-  - [`useGetSet`](./docs/useGetSet.md) &mdash; returns state getter `get()` instead of raw state.
-  - [`useGetSetState`](./docs/useGetSetState.md) &mdash; as if [`useGetSet`](./docs/useGetSet.md) and [`useSetState`](./docs/useSetState.md) had a baby.
-  - [`useObservable`](./docs/useObservable.md) &mdash; tracks latest value of an `Observable`.
-  - [`useSetState`](./docs/useSetState.md) &mdash; creates `setState` method which works like `this.setState`. [![][img-demo]](https://codesandbox.io/s/n75zqn1xp0)
-  - [`useToggle` and `useBoolean`](./docs/useToggle.md) &mdash; tracks state of a boolean.
-  - [`useCounter` and `useNumber`](./docs/useCounter.md) &mdash; tracks state of a number.
-  - [`useList`](./docs/useList.md) &mdash; tracks state of an array.
-  - [`useMap`](./docs/useMap.md) &mdash; tracks state of an object.
+  - [`createMemo`](./docs/createMemo.md) &mdash; memoized hooks的工厂。
+  - [`useCallbag`](./docs/useCallbag.md) &mdash; 跟踪callbag的最新值。
+  - [`useGetSet`](./docs/useGetSet.md) &mdash; 返回状态getter `get()`而不是raw状态。
+  - [`useGetSetState`](./docs/useGetSetState.md) &mdash; 就像`useGetSet`和`useSetState`有一个孩子。
+  - [`useObservable`](./docs/useObservable.md) &mdash; 跟踪`Observable`的最新值。
+  - [`useSetState`](./docs/useSetState.md) &mdash; 创建类似`this.setState`的`setState`方法。[![][img-demo]](https://codesandbox.io/s/n75zqn1xp0)
+  - [`useToggle` and `useBoolean`](./docs/useToggle.md) &mdash; 跟踪布尔值的状态。
+  - [`useCounter` and `useNumber`](./docs/useCounter.md) &mdash; 跟踪数字的状态。
+  - [`useList`](./docs/useList.md) &mdash; 跟踪数组的状态。
+  - [`useMap`](./docs/useMap.md) &mdash; 跟踪对象的状态。
     <br/>
     <br/>
 
@@ -98,24 +97,24 @@
 <br />
 <br />
 
-<h2 align="center"><sub>Usage</sub></h2>
+<h2 align="center"><sub>使用</sub></h2>
 
 <br/>
 
 <p align="center">
-You need to have React <code>16.8.1</code> or later installed to use Hooks API.
+要使用Hooks API，你需要安装React <code>16.8.1</code> 或更高版本。
 </p>
 
 <p align="center">
-You can import each hook individually <code>import useToggle from 'react-use/lib/useToggle'</code>.
+你可以单独导入每个钩子 <code>import useToggle from 'react-use/lib/useToggle'</code>.
 </p>
 
 <br/>
 
-<h2 align="center"><sub>License</sub></h2>
+<h2 align="center"><sub>许可证</sub></h2>
 
 <p align="center">
-  <a href="./LICENSE">Unlicense</a> &mdash; public domain.
+  <a href="./LICENSE">Unlicense</a> &mdash; 公有领域
 </p>
 
 [img-demo]: https://img.shields.io/badge/demo-%20%20%20%F0%9F%9A%80-green.svg
