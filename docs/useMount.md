@@ -4,7 +4,7 @@ React lifecycle hook that call `mount` callback, when
 component is mounted.
 
 
-## Usage
+## 用法
 
 ```jsx
 import {useMount} from 'react-use';
@@ -16,7 +16,7 @@ const Demo = () => {
 ```
 
 
-## Reference
+## 参考
 
 ```js
 useMount(mount);

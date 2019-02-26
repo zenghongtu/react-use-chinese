@@ -5,7 +5,7 @@ React state hook that tracks a numeric value.
 `useNumber` is an alias for `useCounter`.
 
 
-## Usage
+## 用法
 
 ```jsx
 import {useCounter, useNumber} from 'react-use';

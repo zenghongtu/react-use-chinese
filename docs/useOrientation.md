@@ -12,7 +12,7 @@ Returns state in the following shape
 ```
 
 
-## Usage
+## 用法
 
 ```jsx
 import {useOrientation} from 'react-use';

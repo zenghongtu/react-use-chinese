@@ -5,7 +5,7 @@ React animation hook that tweens a number between 0 and 1.
 [![](https://img.shields.io/badge/demo-useTween-green.svg)](https://codesandbox.io/s/52990wwzyl)
 
 
-## Usage
+## 用法
 
 ```jsx
 import {useTween} from 'react-use';
@@ -22,7 +22,7 @@ const Demo = () => {
 ```
 
 
-## Reference
+## 参考
 
 ```ts
 useTween(easing?: string, ms?: number, delay?: number): number

@@ -3,7 +3,7 @@
 React sensor hook that tracks size of some HTML element.
 
 
-## Usage
+## 用法
 
 ```jsx
 import {useSize} from 'react-use';

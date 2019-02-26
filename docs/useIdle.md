@@ -3,7 +3,7 @@
 React sensor hook that tracks if user on the page is idle.
 
 
-## Usage
+## 用法
 
 ```jsx
 import {useIdle} from 'react-use';
@@ -20,7 +20,7 @@ const Demo = () => {
 ```
 
 
-## Reference
+## 参考
 
 ```js
 useIdle(ms, initialState);

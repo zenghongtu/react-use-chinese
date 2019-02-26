@@ -12,7 +12,7 @@ React sensor hook that tracks connected hardware devices. Returns:
 }
 ```
 
-## Usage
+## 用法
 
 ```jsx
 import {useNetwork} from 'react-use';

@@ -3,7 +3,7 @@
 React state hook that tracks a value of an object.
 
 
-## Usage
+## 用法
 
 ```jsx
 import {useMap} from 'react-use';

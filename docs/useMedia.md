@@ -3,7 +3,7 @@
 React sensor hook that tracks state of a CSS media query.
 
 
-## Usage
+## 用法
 
 ```jsx
 import {useMedia} from 'react-use';

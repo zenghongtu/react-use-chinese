@@ -3,7 +3,7 @@
 React sensor hook that tracks user's geographic location.
 
 
-## Usage
+## 用法
 
 ```jsx
 import {useGeolocation} from 'react-use';

@@ -3,7 +3,7 @@
 React sensor hook that uses device's acceleration sensor to track its motions.
 
 
-## Usage
+## 用法
 
 ```jsx
 import {useMotion} from 'react-use';

@@ -8,7 +8,7 @@ time or requiring them to be held down in a specified order are also available
 via [KeyboardJS key combos](https://github.com/RobertWHurst/KeyboardJS).
 Check its documentation for further details on how to make combo strings.
 
-## Usage
+## 用法
 
 ```jsx
 import { useKeyPress } from "react-use";
@@ -44,7 +44,7 @@ const Demo = () => {
 };
 ```
 
-## Reference
+## 参考
 
 ```js
 const hasPressedSingleKey = useKeyPress("<key>");

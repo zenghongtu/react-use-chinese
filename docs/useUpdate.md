@@ -4,7 +4,7 @@ React utility hook that returns a function that forces component
 to re-render when called.
 
 
-## Usage
+## 用法
 
 ```jsx
 import {useUpdate} from 'react-use';

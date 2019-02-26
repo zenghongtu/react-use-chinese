@@ -9,7 +9,7 @@ by a mouse.
 `useHoverDirty` sets DOM `onmouseover` and `onmouseout` events.
 
 
-## Usage
+## 用法
 
 ```jsx
 import {useHover} from 'react-use';
@@ -31,7 +31,7 @@ const Demo = () => {
 ```
 
 
-## Reference
+## 参考
 
 ```js
 const [newReactElement, isHovering] = useHover(reactElement);

@@ -3,7 +3,7 @@
 React side-effect hook that manages a single `sessionStorage` key.
 
 
-## Usage
+## 用法
 
 ```jsx
 import {useSessionStorage} from 'react-use';
@@ -22,7 +22,7 @@ const Demo = () => {
 ```
 
 
-## Reference
+## 参考
 
 ```js
 useSessionStorage(key);

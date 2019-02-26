@@ -4,7 +4,7 @@ React lifecycle hook that call `mount` and `unmount` callbacks, when
 component is mounted and un-mounted, respectively.
 
 
-## Usage
+## 用法
 
 ```jsx
 import {useLifecycles} from 'react-use';
@@ -16,7 +16,7 @@ const Demo = () => {
 ```
 
 
-## Reference
+## 参考
 
 ```js
 useLifecycles(mount, unmount);

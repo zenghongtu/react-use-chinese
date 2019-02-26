@@ -2,7 +2,7 @@
 
 React lifecycle hook that logs in console as component transitions through life-cycles.
 
-## Usage
+## 用法
 
 ```jsx
 import {useLogger} from 'react-use';
@@ -23,7 +23,7 @@ Demo un-mounted
 ```
 
 
-## Reference
+## 参考
 
 ```js
 useLogger(name, props);

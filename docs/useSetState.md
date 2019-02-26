@@ -5,7 +5,7 @@ React state hook that creates `setState` method which works similar to how
 current state.
 
 
-## Usage
+## 用法
 
 ```jsx
 import {useSetState} from 'react-use';
@@ -32,7 +32,7 @@ const Demo = () => {
 };
 ```
 
-## Reference
+## 参考
 
 ```js
 const [state, setState] = useSetState({cnt: 0});

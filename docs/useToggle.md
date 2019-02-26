@@ -5,7 +5,7 @@ React state hook that tracks value of a boolean.
 `useBoolean` is an alias for `useToggle`.
 
 
-## Usage
+## 用法
 
 ```jsx
 import {useToggle, useBoolean} from 'react-use';

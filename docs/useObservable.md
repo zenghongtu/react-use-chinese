@@ -3,7 +3,7 @@
 React state hook that tracks the latest value of an `Observable`.
 
 
-## Usage
+## 用法
 
 ```jsx
 import {useObservable} from 'react-use';

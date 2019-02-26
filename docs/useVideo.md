@@ -3,7 +3,7 @@
 Creates `<video>` element, tracks its state and exposes playback controls.
 
 
-## Usage
+## 用法
 
 ```jsx
 import {useVideo} from 'react-use';
@@ -35,7 +35,7 @@ const Demo = () => {
 ```
 
 
-## Reference
+## 参考
 
 ```jsx
 const [video, state, controls, ref] = useVideo(props);

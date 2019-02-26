@@ -3,7 +3,7 @@
 React side-effect hook that manages a single `localStorage` key.
 
 
-## Usage
+## 用法
 
 ```jsx
 import {useLocalStorage} from 'react-use';
@@ -22,7 +22,7 @@ const Demo = () => {
 ```
 
 
-## Reference
+## 参考
 
 ```js
 useLocalStorage(key);

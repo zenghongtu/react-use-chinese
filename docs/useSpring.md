@@ -4,7 +4,7 @@ React animation hook that updates a single numeric value over time according
 to spring dynamics.
 
 
-## Usage
+## 用法
 
 ```jsx
 import {useSpring} from 'react-use';
@@ -25,7 +25,7 @@ const Demo = () => {
 ```
 
 
-# Reference
+# 参考
 
 
 ```js

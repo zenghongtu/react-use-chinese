@@ -5,7 +5,7 @@ React sensor hook that tracks brower's location.
 For Internet Explorer you need to [install a polyfill](https://github.com/streamich/react-use/issues/73).
 
 
-## Usage
+## 用法
 
 ```jsx
 import {useLocation} from 'react-use';

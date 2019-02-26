@@ -5,7 +5,7 @@ raw state itself, this prevents subtle bugs when state is used
 in nested functions.
 
 
-## Usage
+## 用法
 
 Below example uses `useGetSet` to increment a number after 1 second
 on each click.

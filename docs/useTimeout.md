@@ -2,7 +2,7 @@
 
 Returns `true` after a specified number of milliseconds.
 
-## Usage
+## 用法
 
 ```jsx
 import { useTimeout } from 'react-use';

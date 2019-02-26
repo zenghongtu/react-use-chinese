@@ -4,7 +4,7 @@ React animation hook that forces component to re-render on each `reaquestAnimati
 returns percentage of time elapsed.
 
 
-## Usage
+## 用法
 
 ```jsx
 import {useRaf} from 'react-use';
@@ -21,7 +21,7 @@ const Demo = () => {
 ```
 
 
-## Reference
+## 参考
 
 ```ts
 useRaf(ms?: number, delay?: number): number;

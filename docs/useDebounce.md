@@ -4,7 +4,7 @@ React hook that delays invoking a function until after wait milliseconds have el
 
 The third argument is the array of values that the debounce depends on, in the same manner as useEffect. The debounce timeout will start when one of the values changes.
 
-## Usage
+## 用法
 
 ```jsx
 import React, { useState } from 'react';
@@ -39,7 +39,7 @@ const Demo = () => {
 };
 ```
 
-## Reference
+## 参考
 
 ```ts
 useDebouce(fn, ms: number, args: any[]);

@@ -3,7 +3,7 @@
 React side-effect hook that sets title of the page.
 
 
-## Usage
+## 用法
 
 ```jsx
 import {useTitle} from 'react-use';

@@ -3,7 +3,7 @@
 React state hook that tracks the latest value of a callbag.
 
 
-## Usage
+## 用法
 
 ```jsx
 import {useCallbag} from 'react-use';

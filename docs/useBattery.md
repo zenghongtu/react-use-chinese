@@ -3,7 +3,7 @@
 React sensor hook that tracks battery status.
 
 
-## Usage
+## 用法
 
 ```jsx
 import {useBattery} from 'react-use';

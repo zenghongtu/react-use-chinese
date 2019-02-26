@@ -3,7 +3,7 @@
 React sensor hook that tracks dimensions of the browser window.
 
 
-## Usage
+## 用法
 
 ```jsx
 import {useWindowSize} from 'react-use';

@@ -3,7 +3,7 @@
 React sensor hook that tracks connected hardware devices.
 
 
-## Usage
+## 用法
 
 ```jsx
 import {useMediaDevices} from 'react-use';

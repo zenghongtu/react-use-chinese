@@ -4,7 +4,7 @@ React hook that resolves an `async` function or a function that returns
 a promise;
 
 
-## Usage
+## 用法
 
 ```jsx
 import {useAsync} from 'react-use';
@@ -33,7 +33,7 @@ const Demo = () => {
 ```
 
 
-## Reference
+## 参考
 
 ```ts
 useAsync(fn, args?: any[]);

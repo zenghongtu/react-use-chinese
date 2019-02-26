@@ -3,7 +3,7 @@
 React side-effect hook that changes [CSS dynamically][gen-5].
 
 
-## Usage
+## 用法
 
 ```jsx
 import {useCss} from 'react-use';

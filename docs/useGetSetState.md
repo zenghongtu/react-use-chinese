@@ -3,7 +3,7 @@
 A mix of `useGetSet` and `useGetSetState`.
 
 
-## Usage
+## 用法
 
 ```jsx
 import {useGetSetState} from 'react-use';

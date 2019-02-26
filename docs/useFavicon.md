@@ -3,7 +3,7 @@
 React side-effect hook sets the favicon of the page.
 
 
-## Usage
+## 用法
 
 ```jsx
 import {useFavicon} from 'react-use';

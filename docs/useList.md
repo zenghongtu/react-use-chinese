@@ -3,7 +3,7 @@
 React state hook that tracks a value of an array.
 
 
-## Usage
+## 用法
 
 ```jsx
 import {useList} from 'react-use';

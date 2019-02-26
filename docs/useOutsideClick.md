@@ -4,7 +4,7 @@ React UI hook that triggers a callback when user
 clicks outside the target element.
 
 
-## Usage
+## 用法
 
 ```jsx
 import {useOutsideClick} from 'react-use';

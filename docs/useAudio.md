@@ -3,7 +3,7 @@
 Creates `<audio>` element, tracks its state and exposes playback controls.
 
 
-## Usage
+## 用法
 
 ```jsx
 import {useAudio} from 'react-use';
@@ -36,7 +36,7 @@ const Demo = () => {
 ```
 
 
-## Reference
+## 参考
 
 ```jsx
 const [audio, state, controls, ref] = useAudio(props);
