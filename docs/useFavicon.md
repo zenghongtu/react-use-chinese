@@ -1,6 +1,6 @@
 # `useFavicon`
 
-React side-effect hook sets the favicon of the page.
+React 副作用钩子，用于设置页面图标。
 
 
 ## 用法

@@ -1,8 +1,8 @@
 # `useDebounce`
 
-React hook that delays invoking a function until after wait milliseconds have elapsed since the last time the debounced function was invoked.
+React 钩子，会延迟调用函数，直到上次调用防抖函数以后经过等待毫秒之后。
 
-The third argument is the array of values that the debounce depends on, in the same manner as useEffect. The debounce timeout will start when one of the values changes.
+第三个参数是防抖所依赖的数组值，其方式与 useEffect 中的相同。当其中一个值发生改变，防抖超时将会启动。
 
 ## 用法
 

@@ -1,7 +1,6 @@
 # `useCss`
 
-React side-effect hook that changes [CSS dynamically][gen-5].
-
+React 副作用钩子，用于 [CSS 动态][gen-5] 改变。
 
 ## 用法
 

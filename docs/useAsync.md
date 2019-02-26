@@ -1,7 +1,6 @@
 # `useAsync`
 
-React hook that resolves an `async` function or a function that returns
-a promise;
+React 钩子，用于解析 `async` 函数或返回 promise 的函数。
 
 
 ## 用法
