@@ -1,7 +1,6 @@
 # `useMount`
 
-React lifecycle hook that call `mount` callback, when
-component is mounted.
+当组件被挂载时，响应调用 `mount` 回调的生命周期钩子。
 
 
 ## 用法

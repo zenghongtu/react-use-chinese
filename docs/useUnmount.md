@@ -1,7 +1,6 @@
 # `useUnmount`
 
-React lifecycle hook that call `unmount` callback, when
-component is un-mounted.
+当组件被卸载时，调用 `unmount` 回调的生命周期钩子。
 
 
 ## 用法

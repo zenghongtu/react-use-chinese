@@ -16,7 +16,7 @@ const Demo = () => {
 };
 
 storiesOf('State（状态）/useObservable', module)
-  // .add('Docs', () => <ShowDocs md={require('../../docs/useObservable.md')} />)
+  .add('Docs', () => <ShowDocs md={require('../../docs/useObservable.md')} />)
   .add('Demo', () =>
     <Demo/>
   )

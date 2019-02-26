@@ -18,6 +18,7 @@ const Demo = () => {
 };
 
 storiesOf('Sensors（传感器）/useSize', module)
-  .add('Example', () =>
+  .add('Docs', () => <ShowDocs md={require('../../docs/useSize.md')} />)
+  .add('Demo', () =>
     <Demo/>
   )

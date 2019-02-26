@@ -1,6 +1,6 @@
 # `useLogger`
 
-React lifecycle hook that logs in console as component transitions through life-cycles.
+React生命周期钩子，在生命周期中作为组件转换记录到控制台。
 
 ## 用法
 

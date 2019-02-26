@@ -1,8 +1,6 @@
 # `useLifecycles`
 
-React lifecycle hook that call `mount` and `unmount` callbacks, when
-component is mounted and un-mounted, respectively.
-
+当组件挂载和卸载时，React 生命周期钩子分别调用 `mount` 和 `unmount`  回调。
 
 ## 用法
 
