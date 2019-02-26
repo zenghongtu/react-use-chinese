@@ -31,6 +31,6 @@ const Demo = () => {
   );
 };
 
-storiesOf('Side effects/useDebounce', module)
+storiesOf('Side effects（副作用）/useDebounce', module)
   .add('Docs', () => <ShowDocs md={require('../../docs/useDebounce.md')} />)
   .add('Demo', () => <Demo />);

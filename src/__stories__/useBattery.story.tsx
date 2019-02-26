@@ -13,7 +13,7 @@ const Demo = () => {
   );
 };
 
-storiesOf('Sensors/useBattery', module)
+storiesOf('Sensors（传感器）/useBattery', module)
   .add('Docs', () => <ShowDocs md={require('../../docs/useBattery.md')} />)
   .add('Demo', () =>
     <Demo/>

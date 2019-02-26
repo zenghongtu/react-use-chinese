@@ -24,7 +24,7 @@ const Demo = () => {
   );
 };
 
-storiesOf('State/useSetState', module)
+storiesOf('State（状态）/useSetState', module)
   .add('Docs', () => <ShowDocs md={require('../../docs/useSetState.md')} />)
   .add('Demo', () =>
     <Demo/>

@@ -13,7 +13,7 @@ const Demo = () => {
   );
 };
 
-storiesOf('Sensors/useMotion', module)
+storiesOf('Sensors（传感器）/useMotion', module)
   .add('Docs', () => <ShowDocs md={require('../../docs/useMotion.md')} />)
   .add('Demo', () =>
     <Demo/>

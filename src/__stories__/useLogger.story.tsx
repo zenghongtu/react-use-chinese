@@ -8,7 +8,7 @@ const Demo = (props) => {
   return null;
 };
 
-storiesOf('Lifecycles/useLogger', module)
+storiesOf('Lifecycles（生命周期）/useLogger', module)
   .add('Docs', () => <ShowDocs md={require('../../docs/useLogger.md')} />)
   .add('Demo', () =>
     <Demo/>

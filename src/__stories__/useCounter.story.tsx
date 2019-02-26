@@ -20,7 +20,7 @@ const Demo = () => {
   );
 };
 
-storiesOf('State/useCounter', module)
+storiesOf('State（状态）/useCounter', module)
   .add('Docs', () => <ShowDocs md={require('../../docs/useCounter.md')} />)
   .add('Demo', () =>
     <Demo/>

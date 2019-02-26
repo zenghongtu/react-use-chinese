@@ -8,7 +8,7 @@ const Demo = () => {
   return null;
 };
 
-storiesOf('Lifecycles/useMount', module)
+storiesOf('Lifecycles（生命周期）/useMount', module)
   .add('Docs', () => <ShowDocs md={require('../../docs/useMount.md')} />)
   .add('Demo', () =>
     <Demo/>

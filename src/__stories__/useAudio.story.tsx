@@ -29,7 +29,7 @@ const Demo = () => {
   );
 };
 
-storiesOf('UI/useAudio', module)
+storiesOf('UI（用户界面）/useAudio', module)
   .add('Docs', () => <ShowDocs md={require('../../docs/useAudio.md')} />)
   .add('Demo', () =>
     <Demo/>

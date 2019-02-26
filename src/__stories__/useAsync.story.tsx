@@ -22,7 +22,7 @@ const Demo = () => {
   );
 };
 
-storiesOf('Side effects/useAsync', module)
+storiesOf('Side effects（副作用）/useAsync', module)
   .add('Docs', () => <ShowDocs md={require('../../docs/useAsync.md')} />)
   .add('Demo', () =>
     <Demo/>

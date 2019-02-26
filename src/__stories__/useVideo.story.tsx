@@ -28,7 +28,7 @@ const Demo = () => {
   );
 };
 
-storiesOf('UI/useVideo', module)
+storiesOf('UI（用户界面）/useVideo', module)
   .add('Docs', () => <ShowDocs md={require('../../docs/useVideo.md')} />)
   .add('Demo', () =>
     <Demo/>

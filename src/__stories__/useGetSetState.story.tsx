@@ -16,7 +16,7 @@ const Demo = () => {
   );
 };
 
-storiesOf('State/useGetSetState', module)
+storiesOf('State（状态）/useGetSetState', module)
   .add('Docs', () => <ShowDocs md={require('../../docs/useGetSetState.md')} />)
   .add('Demo', () =>
     <Demo/>

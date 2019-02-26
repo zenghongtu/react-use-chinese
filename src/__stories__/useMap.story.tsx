@@ -17,7 +17,7 @@ const Demo = () => {
   );
 };
 
-storiesOf('State/useMap', module)
+storiesOf('State（状态）/useMap', module)
   .add('Docs', () => <ShowDocs md={require('../../docs/useMap.md')} />)
   .add('Demo', () =>
     <Demo/>
