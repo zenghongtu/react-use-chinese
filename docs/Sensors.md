@@ -1,4 +1,3 @@
 # Sensors
 
-*"Sensor Hooks"* listen to changes in some interface and force your components
-to be re-rendered with the new state, up-to-date state.
+*“Sensor Hooks”* 会侦听某些界面中的更改，并强制使用新的状态，最新状态重新呈现组件。

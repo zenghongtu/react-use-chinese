@@ -1,3 +1,3 @@
 # Animations
 
-*"Animation Hooks"* usually interpolate numeric values over time.
+*“Animation Hooks”* 会随着时间的推移插入数值。
