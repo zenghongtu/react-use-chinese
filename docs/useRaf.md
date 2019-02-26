@@ -1,7 +1,6 @@
 # `useRaf`
 
-React animation hook that forces component to re-render on each `reaquestAnimationFrame`,
-returns percentage of time elapsed.
+ React动画钩子,强制组件在每个 `reaquestAnimationFrame` 上重新渲染，返回经过的时间百分比。
 
 
 ## 用法
@@ -27,5 +26,5 @@ const Demo = () => {
 useRaf(ms?: number, delay?: number): number;
 ```
 
-- `ms` &mdash; milliseconds for how long to keep re-rendering component, defaults to `1e12`.
-- `delay` &mdash; delay in milliseconds after which to start re-rendering component, defaults to `0`.
+- `ms` &mdash; milliseconds  保持重新渲染组件的时间, 默认为 `1e12`.
+- `delay` &mdash; 延迟（以毫秒为单位），然后开始重新渲染组件, 默认为 `0`.

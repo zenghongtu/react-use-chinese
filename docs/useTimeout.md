@@ -1,6 +1,6 @@
 # `useTimeout`
 
-Returns `true` after a specified number of milliseconds.
+在指定的毫秒数后返回 `true`。
 
 ## 用法
 

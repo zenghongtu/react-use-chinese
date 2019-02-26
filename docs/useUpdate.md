@@ -1,7 +1,6 @@
 # `useUpdate`
 
-React utility hook that returns a function that forces component
-to re-render when called.
+ React实用程序钩子，它返回一个强制组件在被调用时重新呈现的函数。
 
 
 ## 用法

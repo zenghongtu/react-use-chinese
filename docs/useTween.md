@@ -1,6 +1,6 @@
 # `useTween`
 
-React animation hook that tweens a number between 0 and 1.
+ React动画钩子，补间0到1之间的数字。
 
 [![](https://img.shields.io/badge/demo-useTween-green.svg)](https://codesandbox.io/s/52990wwzyl)
 
@@ -28,8 +28,8 @@ const Demo = () => {
 useTween(easing?: string, ms?: number, delay?: number): number
 ```
 
-Returns a number that begins with 0 and ends with 1 when animation ends.
+返回一个数字，该数字在动画结束时以0开始，以1结束。
 
-- `easing` &mdash; one of the valid [easing names](https://github.com/streamich/ts-easing/blob/master/src/index.ts), defaults to `inCirc`.
-- `ms` &mdash; milliseconds for how long to keep re-rendering component, defaults to `200`.
-- `delay` &mdash; delay in milliseconds after which to start re-rendering component, defaults to `0`.
+- `easing` &mdash; 一个有效的 [easing names](https://github.com/streamich/ts-easing/blob/master/src/index.ts), 默认为 `inCirc`.
+- `ms` &mdash; 保持重新渲染组件的时间, 默认为 `200`.
+- `delay` &mdash; 延迟（以毫秒为单位），然后开始重新渲染组件, 默认为 `0`.

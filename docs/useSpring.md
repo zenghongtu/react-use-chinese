@@ -1,8 +1,6 @@
 # `useSpring`
 
-React animation hook that updates a single numeric value over time according
-to spring dynamics.
-
+React 动画钩子，根据弹簧动力学随时间更新单个数值。
 
 ## 用法
 
