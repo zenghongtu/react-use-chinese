@@ -1,7 +1,7 @@
+import { storiesOf } from '@storybook/react';
 import * as React from 'react';
-import {storiesOf} from '@storybook/react';
-import {useCss} from '..';
-import ShowDocs from '../util/ShowDocs';
+import { useCss } from '..';
+import ShowDocs from './util/ShowDocs';
 
 const Demo = () => {
   const className = useCss({
@@ -12,15 +12,9 @@ const Demo = () => {
     },
   });
 
-  return (
-    <div className={className}>
-      hello
-    </div>
-  );
+  return <div className={className}>hello</div>;
 };
 
-storiesOf('Side effects（副作用）/useCss', module)
+storiesOf('UI|useCss', module)
   .add('Docs', () => <ShowDocs md={require('../../docs/useCss.md')} />)
-  .add('Demo', () =>
-    <Demo/>
-  )
+  .add('Demo', () => <Demo />);

@@ -1,3 +1,358 @@
+## [8.1.3](https://github.com/streamich/react-use/compare/v8.1.2...v8.1.3) (2019-04-18)
+
+
+### Bug Fixes
+
+* 🐛 don't fire typing event on modifier keys pressed ([ce76edf](https://github.com/streamich/react-use/commit/ce76edf))
+
+## [8.1.2](https://github.com/streamich/react-use/compare/v8.1.1...v8.1.2) (2019-04-12)
+
+
+### Bug Fixes
+
+* **useIdle:** include 'ms' prop in uesEffect dependencies ([7a670a2](https://github.com/streamich/react-use/commit/7a670a2))
+
+## [8.1.1](https://github.com/streamich/react-use/compare/v8.1.0...v8.1.1) (2019-04-09)
+
+
+### Bug Fixes
+
+* 🐛 make useLocation work on server, improve hook ([6f6030a](https://github.com/streamich/react-use/commit/6f6030a))
+
+# [8.1.0](https://github.com/streamich/react-use/compare/v8.0.0...v8.1.0) (2019-04-08)
+
+
+### Features
+
+* add useAsyncCallback hook ([c6ecb36](https://github.com/streamich/react-use/commit/c6ecb36))
+
+# [8.0.0](https://github.com/streamich/react-use/compare/v7.6.0...v8.0.0) (2019-04-08)
+
+
+### Features
+
+* change useCopyToClipboard implementation ([c391038](https://github.com/streamich/react-use/commit/c391038))
+
+
+### BREAKING CHANGES
+
+* useCopyToClipboard interface changed
+
+# [7.6.0](https://github.com/streamich/react-use/compare/v7.5.0...v7.6.0) (2019-04-07)
+
+
+### Bug Fixes
+
+* 🐛 handle case when activeElement is empty ([3d83705](https://github.com/streamich/react-use/commit/3d83705))
+
+
+### Features
+
+* 🎸 add useStartTypings hook ([5fda2e0](https://github.com/streamich/react-use/commit/5fda2e0))
+
+# [7.5.0](https://github.com/streamich/react-use/compare/v7.4.0...v7.5.0) (2019-04-07)
+
+
+### Features
+
+* 🎸 add onCopy and onError events and use NPM copy library ([2553225](https://github.com/streamich/react-use/commit/2553225))
+* 🎸 improve useCopyToClipboard() hook ([f185044](https://github.com/streamich/react-use/commit/f185044))
+* 🎸 make useCopyToClipboard hook interface more idiomatic ([0a6d773](https://github.com/streamich/react-use/commit/0a6d773))
+* add useCopyToClipboard() hook ([4d8e276](https://github.com/streamich/react-use/commit/4d8e276))
+
+# [7.4.0](https://github.com/streamich/react-use/compare/v7.3.1...v7.4.0) (2019-04-07)
+
+
+### Features
+
+* add useDeepCompareEffect hook ([77e015b](https://github.com/streamich/react-use/commit/77e015b))
+
+## [7.3.1](https://github.com/streamich/react-use/compare/v7.3.0...v7.3.1) (2019-03-31)
+
+
+### Bug Fixes
+
+* 🐛 call key{up/donw} callbacks in useKeyPressEvent correct ([60064a6](https://github.com/streamich/react-use/commit/60064a6))
+
+# [7.3.0](https://github.com/streamich/react-use/compare/v7.2.0...v7.3.0) (2019-03-31)
+
+
+### Features
+
+* add useEffectOnce hook ([06c12d4](https://github.com/streamich/react-use/commit/06c12d4))
+
+# [7.2.0](https://github.com/streamich/react-use/compare/v7.1.1...v7.2.0) (2019-03-31)
+
+
+### Features
+
+* default dependency array for useAsync and useAsyncRetry ([cb140a0](https://github.com/streamich/react-use/commit/cb140a0))
+
+## [7.1.1](https://github.com/streamich/react-use/compare/v7.1.0...v7.1.1) (2019-03-30)
+
+
+### Bug Fixes
+
+* consistent refs in useFullscreen hook ([dc85499](https://github.com/streamich/react-use/commit/dc85499))
+
+# [7.1.0](https://github.com/streamich/react-use/compare/v7.0.2...v7.1.0) (2019-03-29)
+
+
+### Bug Fixes
+
+* useClickAway TypeScript typings ([4b20083](https://github.com/streamich/react-use/commit/4b20083))
+
+
+### Features
+
+* pass click event in useClickAway to user ([01e38bc](https://github.com/streamich/react-use/commit/01e38bc))
+
+## [7.0.2](https://github.com/streamich/react-use/compare/v7.0.1...v7.0.2) (2019-03-29)
+
+
+### Bug Fixes
+
+* 🐛 add rebound and keyboards deps back to peerDependencies ([4fc46aa](https://github.com/streamich/react-use/commit/4fc46aa))
+
+## [7.0.1](https://github.com/streamich/react-use/compare/v7.0.0...v7.0.1) (2019-03-29)
+
+
+### Bug Fixes
+
+* add optional attributes in AsyncState ([b0c9770](https://github.com/streamich/react-use/commit/b0c9770))
+
+# [7.0.0](https://github.com/streamich/react-use/compare/v6.2.2...v7.0.0) (2019-03-28)
+
+
+### Bug Fixes
+
+* 🐛 fix TypeScript build errors ([5c95f28](https://github.com/streamich/react-use/commit/5c95f28))
+* 🐛 make sure all paths in usePageLeave return ([6655092](https://github.com/streamich/react-use/commit/6655092))
+* 🐛 track "over" state better in useDrop hook ([acc355c](https://github.com/streamich/react-use/commit/acc355c))
+
+
+### Features
+
+* 🎸 add clear() to useList, use fn for state updates ([b20cf7c](https://github.com/streamich/react-use/commit/b20cf7c))
+* 🎸 add createRenderProp function for creating render-props ([f4fd748](https://github.com/streamich/react-use/commit/f4fd748))
+* 🎸 add useDrop hook ([6e415cf](https://github.com/streamich/react-use/commit/6e415cf))
+* 🎸 add useDropArea hook ([676d0de](https://github.com/streamich/react-use/commit/676d0de))
+* 🎸 add useEvent hook ([2a13cfb](https://github.com/streamich/react-use/commit/2a13cfb))
+* 🎸 add useKey hook ([299fd86](https://github.com/streamich/react-use/commit/299fd86))
+* 🎸 add useKeyboardJs hook ([3516aa6](https://github.com/streamich/react-use/commit/3516aa6))
+* 🎸 add usePageLeave hook ([33ac91b](https://github.com/streamich/react-use/commit/33ac91b))
+* 🎸 add useThrottleFn hook that throttles function ([0ccdf95](https://github.com/streamich/react-use/commit/0ccdf95))
+* 🎸 improve useFullscreen hook ([7c38165](https://github.com/streamich/react-use/commit/7c38165))
+* 🎸 keep keyboard events in useKeyPress hook ([00fecab](https://github.com/streamich/react-use/commit/00fecab))
+* 🎸 refactor useKeyPressEvent hook ([c0658f6](https://github.com/streamich/react-use/commit/c0658f6))
+* 🎸 return events from useKeyboardJs hook ([aa277b8](https://github.com/streamich/react-use/commit/aa277b8))
+* 🎸 simplify and improve useThrottle hook ([452e8d9](https://github.com/streamich/react-use/commit/452e8d9))
+* 🎸 useKeyPress hook now uses useKey, KeyboardJS removed ([727743b](https://github.com/streamich/react-use/commit/727743b))
+
+
+### BREAKING CHANGES
+
+* 🧨 useKeyPressEvent hook modified for dependency injection and providing
+event objects to user
+* 🧨 KeyboardJS now available anymore in useKeyPress hook, instead it will be
+a separate useKeyPressKJ hook.
+* 🧨 useThrottle is now a completely different hook
+
+## [6.2.2](https://github.com/streamich/react-use/compare/v6.2.1...v6.2.2) (2019-03-28)
+
+
+### Bug Fixes
+
+* fix deps arg and union type in useAsync and useAsyncRetry ([929e726](https://github.com/streamich/react-use/commit/929e726))
+
+## [6.2.1](https://github.com/streamich/react-use/compare/v6.2.0...v6.2.1) (2019-03-27)
+
+
+### Bug Fixes
+
+* set 'module' field properly ([35d4fc2](https://github.com/streamich/react-use/commit/35d4fc2))
+
+# [6.2.0](https://github.com/streamich/react-use/compare/v6.1.0...v6.2.0) (2019-03-27)
+
+
+### Bug Fixes
+
+* add esm to 'files' in package.json ([fc1ba07](https://github.com/streamich/react-use/commit/fc1ba07))
+* clean esm folder as well ([0a10a6e](https://github.com/streamich/react-use/commit/0a10a6e))
+
+
+### Features
+
+* emit code in ES Module mode ([464642e](https://github.com/streamich/react-use/commit/464642e))
+
+# [6.1.0](https://github.com/streamich/react-use/compare/v6.0.0...v6.1.0) (2019-03-26)
+
+
+### Features
+
+* add useThrottle hook ([756bc99](https://github.com/streamich/react-use/commit/756bc99))
+
+# [6.0.0](https://github.com/streamich/react-use/compare/v5.16.1...v6.0.0) (2019-03-26)
+
+
+### Bug Fixes
+
+* 🐛 bump nano-css ([f1f36dc](https://github.com/streamich/react-use/commit/f1f36dc)), closes [#90](https://github.com/streamich/react-use/issues/90)
+* 🐛 don't throw only in development ([f5faba5](https://github.com/streamich/react-use/commit/f5faba5))
+
+
+### chore
+
+* 🤖 don't install only large dependencies ([6170067](https://github.com/streamich/react-use/commit/6170067))
+
+
+### Features
+
+* 🎸 add {bound} option to useMouse ([9bb02a1](https://github.com/streamich/react-use/commit/9bb02a1))
+* 🎸 implement useClickAway, remove useOutsideClick ([a03143a](https://github.com/streamich/react-use/commit/a03143a))
+* 🎸 keep global state of all useLockBodyScroll hooks ([5dd10e9](https://github.com/streamich/react-use/commit/5dd10e9))
+* 🎸 move extra mouse functionality into useMouseHovered ([8b0580e](https://github.com/streamich/react-use/commit/8b0580e))
+* more precise size for useMouse ([b887075](https://github.com/streamich/react-use/commit/b887075))
+
+
+### BREAKING CHANGES
+
+* 🧨 error is logged instead of thrown in development environment
+* 🧨 useOutsideClick is now useClickAway
+* 🧨 useCallbag hook is removed, some hooks KeyboardJS and Rebound installed
+separately
+
+## [5.16.1](https://github.com/streamich/react-use/compare/v5.16.0...v5.16.1) (2019-03-26)
+
+
+### Bug Fixes
+
+* types for useGeolocation ([b72c098](https://github.com/streamich/react-use/commit/b72c098))
+
+# [5.16.0](https://github.com/streamich/react-use/compare/v5.15.0...v5.16.0) (2019-03-25)
+
+
+### Features
+
+* more precise size for useMouse ([1761031](https://github.com/streamich/react-use/commit/1761031))
+
+# [5.15.0](https://github.com/streamich/react-use/compare/v5.14.0...v5.15.0) (2019-03-25)
+
+
+### Features
+
+* add useMouse hook ([17dfa8e](https://github.com/streamich/react-use/commit/17dfa8e))
+
+# [5.14.0](https://github.com/streamich/react-use/compare/v5.13.0...v5.14.0) (2019-03-24)
+
+
+### Features
+
+* 🎸 keep global state of all useLockBodyScroll hooks ([9bb7047](https://github.com/streamich/react-use/commit/9bb7047))
+* add useLockBodyScroll hook ([d990db4](https://github.com/streamich/react-use/commit/d990db4))
+
+# [5.13.0](https://github.com/streamich/react-use/compare/v5.12.1...v5.13.0) (2019-03-23)
+
+
+### Features
+
+* add useScroll hook ([a92e9b2](https://github.com/streamich/react-use/commit/a92e9b2))
+
+## [5.12.1](https://github.com/streamich/react-use/compare/v5.12.0...v5.12.1) (2019-03-23)
+
+
+### Bug Fixes
+
+* 🐛 cancel animation frame on un-mount in useWindowScroll() ([bc021ce](https://github.com/streamich/react-use/commit/bc021ce))
+
+# [5.12.0](https://github.com/streamich/react-use/compare/v5.11.0...v5.12.0) (2019-03-23)
+
+
+### Features
+
+* add useWindowScroll hook ([076d0de](https://github.com/streamich/react-use/commit/076d0de))
+
+# [5.11.0](https://github.com/streamich/react-use/compare/v5.10.0...v5.11.0) (2019-03-22)
+
+
+### Features
+
+* 🎸 refresh useCss hook ([0116cc9](https://github.com/streamich/react-use/commit/0116cc9))
+
+# [5.10.0](https://github.com/streamich/react-use/compare/v5.9.0...v5.10.0) (2019-03-21)
+
+
+### Features
+
+* add useUpdateEffect hook ([c2afd23](https://github.com/streamich/react-use/commit/c2afd23))
+
+# [5.9.0](https://github.com/streamich/react-use/compare/v5.8.1...v5.9.0) (2019-03-21)
+
+
+### Features
+
+* add useAsyncRetry hook ([576cf42](https://github.com/streamich/react-use/commit/576cf42))
+
+
+### Performance Improvements
+
+* remove asyn/await wrapper ([8e3de1c](https://github.com/streamich/react-use/commit/8e3de1c))
+
+## [5.8.1](https://github.com/streamich/react-use/compare/v5.8.0...v5.8.1) (2019-03-20)
+
+
+### Bug Fixes
+
+* 🐛 use useLayoutEffect() in useCss() to inject CSS quick ([7328f26](https://github.com/streamich/react-use/commit/7328f26))
+
+# [5.8.0](https://github.com/streamich/react-use/compare/v5.7.1...v5.8.0) (2019-03-19)
+
+
+### Features
+
+* release useKeyPressEvent() ([96798e2](https://github.com/streamich/react-use/commit/96798e2))
+
+## [5.7.1](https://github.com/streamich/react-use/compare/v5.7.0...v5.7.1) (2019-03-15)
+
+
+### Bug Fixes
+
+* 🐛 allow every promise in usePromise() hook have own type ([d60fef7](https://github.com/streamich/react-use/commit/d60fef7))
+
+# [5.7.0](https://github.com/streamich/react-use/compare/v5.6.0...v5.7.0) (2019-03-15)
+
+
+### Bug Fixes
+
+* 🐛 fix TypeScript typings for usePromise() ([ba0acb6](https://github.com/streamich/react-use/commit/ba0acb6))
+
+
+### Features
+
+* 🎸 add usePromise() hook ([aad368b](https://github.com/streamich/react-use/commit/aad368b))
+
+# [5.6.0](https://github.com/streamich/react-use/compare/v5.5.6...v5.6.0) (2019-03-13)
+
+
+### Features
+
+* transpile down to ES5 ([61382e3](https://github.com/streamich/react-use/commit/61382e3))
+
+## [5.5.6](https://github.com/streamich/react-use/compare/v5.5.5...v5.5.6) (2019-03-11)
+
+
+### Bug Fixes
+
+* correct createMemo.md ([4e2d639](https://github.com/streamich/react-use/commit/4e2d639))
+* correct createMemo.story ([9c8e093](https://github.com/streamich/react-use/commit/9c8e093))
+
+## [5.5.5](https://github.com/streamich/react-use/compare/v5.5.4...v5.5.5) (2019-03-04)
+
+
+### Bug Fixes
+
+* 🐛 make useWindowSize work on server ([8f93853](https://github.com/streamich/react-use/commit/8f93853))
+
 ## [5.5.4](https://github.com/streamich/react-use/compare/v5.5.3...v5.5.4) (2019-02-25)
 
 

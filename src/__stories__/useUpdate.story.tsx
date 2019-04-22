@@ -1,7 +1,7 @@
-import {storiesOf} from '@storybook/react';
+import { storiesOf } from '@storybook/react';
 import * as React from 'react';
-import {useUpdate} from '..';
-import ShowDocs from '../util/ShowDocs';
+import { useUpdate } from '..';
+import ShowDocs from './util/ShowDocs';
 
 const Demo = () => {
   const update = useUpdate();
@@ -13,9 +13,6 @@ const Demo = () => {
   );
 };
 
-storiesOf('Animations（动画）/useUpdate', module)
+storiesOf('Animation|useUpdate', module)
   .add('Docs', () => <ShowDocs md={require('../../docs/useUpdate.md')} />)
-  .add('Demo', () =>
-    <Demo/>
-  )
-
+  .add('Demo', () => <Demo />);

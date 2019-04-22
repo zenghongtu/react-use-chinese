@@ -1,7 +1,7 @@
-import {storiesOf} from '@storybook/react';
+import { storiesOf } from '@storybook/react';
 import * as React from 'react';
-import {useLocalStorage} from '..';
-import ShowDocs from '../util/ShowDocs';
+import { useLocalStorage } from '..';
+import ShowDocs from './util/ShowDocs';
 
 const Demo = () => {
   const [value, setValue] = useLocalStorage('hello-key', 'foo');
@@ -15,8 +15,6 @@ const Demo = () => {
   );
 };
 
-storiesOf('Side effects（副作用）/useLocalStorage', module)
+storiesOf('Side effects|useLocalStorage', module)
   .add('Docs', () => <ShowDocs md={require('../../docs/useLocalStorage.md')} />)
-  .add('Demo', () =>
-    <Demo/>
-  )
+  .add('Demo', () => <Demo />);

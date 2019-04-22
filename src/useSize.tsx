@@ -1,8 +1,8 @@
 import * as React from 'react';
+import { isClient } from './util';
 
-const {useState, useEffect, useRef} = React;
+const { useState, useEffect, useRef } = React;
 
-const isClient = typeof window === 'object';
 const DRAF = (callback: () => void) => setTimeout(callback, 35);
 
 export type Element = ((state: State) => React.ReactElement<any>) | React.ReactElement<any>;
@@ -11,17 +11,15 @@ export interface State {
   height: number;
 }
 
-const useSize = (element: Element, {width = Infinity, height = Infinity}: Partial<State> = {}): [React.ReactElement<any>, State] => {
+const useSize = (
+  element: Element,
+  { width = Infinity, height = Infinity }: Partial<State> = {}
+): [React.ReactElement<any>, State] => {
   if (!isClient) {
-    return [
-      typeof element === 'function'
-        ? element({width, height})
-        : element,
-      {width, height}
-    ];
+    return [typeof element === 'function' ? element({ width, height }) : element, { width, height }];
   }
 
-  const [state, setState] = useState<State>({width, height});
+  const [state, setState] = useState<State>({ width, height });
 
   if (typeof element === 'function') {
     element = element(state);
@@ -37,12 +35,12 @@ const useSize = (element: Element, {width = Infinity, height = Infinity}: Partia
           width: iframe.offsetWidth,
           height: iframe.offsetHeight,
         }
-      : {width, height,};
+      : { width, height };
 
     setState(size);
-  }
-  const onWindow = (window: Window) => {
-    window.addEventListener('resize', setSize);
+  };
+  const onWindow = (windowToListenOn: Window) => {
+    windowToListenOn.addEventListener('resize', setSize);
     DRAF(setSize);
   };
 
@@ -66,26 +64,30 @@ const useSize = (element: Element, {width = Infinity, height = Infinity}: Partia
         window.removeEventListener('resize', setSize);
       }
     };
-  }, [0]);
+  }, []);
 
   style.position = 'relative';
 
-  const sized =  React.cloneElement(element, {style}, ...[
-    React.createElement('iframe', {
-      ref,
-      style: {
-        background: 'transparent',
-        border: 'none',
-        height: '100%',
-        left: 0,
-        position: 'absolute',
-        top: 0,
-        width: '100%',
-        zIndex: -1
-      }
-    }),
-    ...React.Children.toArray(element.props.children)
-  ]);
+  const sized = React.cloneElement(
+    element,
+    { style },
+    ...[
+      React.createElement('iframe', {
+        ref,
+        style: {
+          background: 'transparent',
+          border: 'none',
+          height: '100%',
+          left: 0,
+          position: 'absolute',
+          top: 0,
+          width: '100%',
+          zIndex: -1,
+        },
+      }),
+      ...React.Children.toArray(element.props.children),
+    ]
+  );
 
   return [sized, state];
 };

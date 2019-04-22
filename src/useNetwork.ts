@@ -1,5 +1,5 @@
-import {useState, useEffect} from 'react';
-import {on, off} from './util';
+import { useEffect, useState } from 'react';
+import { off, on } from './util';
 
 export interface NetworkState {
   online?: boolean;
@@ -24,23 +24,23 @@ const getConnectionState = (): NetworkState => {
   if (!connection) {
     return {};
   }
-  const {downlink, downlinkMax, effectiveType, type, rtt} = connection;
+  const { downlink, downlinkMax, effectiveType, type, rtt } = connection;
   return {
     downlink,
     downlinkMax,
     effectiveType,
     type,
-    rtt
+    rtt,
   };
-}
+};
 
 const useNetwork = (initialState: NetworkState = {}) => {
   const [state, setState] = useState(initialState);
 
   useEffect(() => {
     let localState = state;
-    const localSetState = (patch) => {
-      localState = {...localState, ...patch};
+    const localSetState = patch => {
+      localState = { ...localState, ...patch };
       setState(localState);
     };
     const connection = getConnection();
@@ -48,13 +48,13 @@ const useNetwork = (initialState: NetworkState = {}) => {
     const onOnline = () => {
       localSetState({
         online: true,
-        since: new Date()
+        since: new Date(),
       });
     };
     const onOffline = () => {
       localSetState({
         online: false,
-        since: new Date()
+        since: new Date(),
       });
     };
     const onConnectionChange = () => {
@@ -80,7 +80,7 @@ const useNetwork = (initialState: NetworkState = {}) => {
         off(connection, 'change', onConnectionChange);
       }
     };
-  }, [0]);
+  }, []);
 
   return state;
 };

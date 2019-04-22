@@ -1,15 +1,15 @@
-import {storiesOf} from '@storybook/react';
+import { storiesOf } from '@storybook/react';
 import * as React from 'react';
-import {useMount} from '..';
-import ShowDocs from '../util/ShowDocs';
+import { useMount } from '..';
+import ConsoleStory from './util/ConsoleStory';
+import ShowDocs from './util/ShowDocs';
 
 const Demo = () => {
   useMount(() => console.log('MOUNTED'));
-  return null;
+
+  return <ConsoleStory />;
 };
 
-storiesOf('Lifecycles（生命周期）/useMount', module)
+storiesOf('Lifecycle|useMount', module)
   .add('Docs', () => <ShowDocs md={require('../../docs/useMount.md')} />)
-  .add('Demo', () =>
-    <Demo/>
-  )
+  .add('Demo', () => <Demo />);

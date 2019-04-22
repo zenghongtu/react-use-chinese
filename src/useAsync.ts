@@ -1,56 +1,29 @@
-import {useState, useEffect, useCallback} from 'react';
+import { DependencyList, useEffect } from 'react';
+import useAsyncFn from './useAsyncFn';
 
 export type AsyncState<T> =
-| {
-  loading: true;
-  error?: undefined;
-  value?: undefined;
-}
-| {
-  loading: false;
-  error: Error;
-  value?: undefined;
-}
-| {
-  loading: false;
-  error?: undefined;
-  value: T;
-};
+  | {
+      loading: true;
+      error?: undefined;
+      value?: undefined;
+    }
+  | {
+      loading: false;
+      error: Error;
+      value?: undefined;
+    }
+  | {
+      loading: false;
+      error?: undefined;
+      value: T;
+    };
 
-const useAsync = <T>(fn: () => Promise<T>, args?) => {
-  const [state, set] = useState<AsyncState<T>>({
-    loading: true,
-  });
-  const memoized = useCallback(fn, args);
+const useAsync = <T>(fn: () => Promise<T>, deps: DependencyList = []) => {
+  const [state, callback] = useAsyncFn(fn, deps);
 
   useEffect(() => {
-    let mounted = true;
-    set({
-      loading: true,
-    });
-    const promise = memoized();
-
-    promise
-      .then(value => {
-        if (mounted) {
-          set({
-            loading: false,
-            value,
-          });
-        }
-      }, error => {
-        if (mounted) {
-          set({
-            loading: false,
-            error,
-          });
-        }
-      });
-
-    return () => {
-      mounted = false;
-    };
-  }, [memoized]);
+    callback();
+  }, [callback]);
 
   return state;
 };

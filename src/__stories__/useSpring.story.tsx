@@ -1,7 +1,7 @@
-import {storiesOf} from '@storybook/react';
+import { storiesOf } from '@storybook/react';
 import * as React from 'react';
-import {useSpring} from '..';
-import ShowDocs from '../util/ShowDocs';
+import { useSpring } from '..';
+import ShowDocs from './util/ShowDocs';
 
 const Demo = () => {
   const [target, setTarget] = (React as any).useState(50);
@@ -17,8 +17,6 @@ const Demo = () => {
   );
 };
 
-storiesOf('Animations（动画）/useSpring', module)
+storiesOf('Animation|useSpring', module)
   .add('Docs', () => <ShowDocs md={require('../../docs/useSpring.md')} />)
-  .add('Demo', () =>
-    <Demo/>
-  )
+  .add('Demo', () => <Demo />);

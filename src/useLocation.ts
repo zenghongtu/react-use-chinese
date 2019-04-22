@@ -1,10 +1,10 @@
-import {useState, useEffect} from 'react';
-import {isClient, on, off} from './util';
+import { useEffect, useState } from 'react';
+import { isClient, off, on } from './util';
 
-const patchHistoryMethod = (method) => {
+const patchHistoryMethod = method => {
   const original = history[method];
 
-  history[method] = function (state) {
+  history[method] = function(state) {
     const result = original.apply(this, arguments);
     const event = new Event(method.toLowerCase());
 
@@ -36,57 +36,40 @@ export interface LocationSensorState {
   search?: string;
 }
 
-const useLocation = (): LocationSensorState => {
-  const buildState = (trigger: string) => {
-    const {
-      state,
-      length
-    } = history;
+const useLocationServer = (): LocationSensorState => ({
+  trigger: 'load',
+  length: 1,
+});
 
-    const {
-      hash,
-      host,
-      hostname,
-      href,
-      origin,
-      pathname,
-      port,
-      protocol,
-      search
-    } = location;
+const buildState = (trigger: string) => {
+  const { state, length } = history;
 
-    return {
-      trigger,
-      state,
-      length,
-      hash,
-      host,
-      hostname,
-      href,
-      origin,
-      pathname,
-      port,
-      protocol,
-      search
-    };
+  const { hash, host, hostname, href, origin, pathname, port, protocol, search } = location;
+
+  return {
+    trigger,
+    state,
+    length,
+    hash,
+    host,
+    hostname,
+    href,
+    origin,
+    pathname,
+    port,
+    protocol,
+    search,
   };
+};
 
-  const [state, setState] = useState(isClient
-    ? buildState('load')
-    : {
-      trigger: 'load',
-      length: 1
-    }
-  );
-
-  const onChange = (trigger: string) =>
-    setState(buildState(trigger));
-
-  const onPopstate = () => onChange('popstate');
-  const onPushstate = () => onChange('pushstate');
-  const onReplacestate = () => onChange('replacestate');
+const useLocationBrowser = (): LocationSensorState => {
+  const [state, setState] = useState(buildState('load'));
 
   useEffect(() => {
+    const onPopstate = () => setState(buildState('popstate'));
+    const onPushstate = () => setState(buildState('pushstate'));
+    const onReplacestate = () => setState(buildState('replacestate'));
+
     on(window, 'popstate', onPopstate);
     on(window, 'pushstate', onPushstate);
     on(window, 'replacestate', onReplacestate);
@@ -96,9 +79,9 @@ const useLocation = (): LocationSensorState => {
       off(window, 'pushstate', onPushstate);
       off(window, 'replacestate', onReplacestate);
     };
-  }, [0]);
+  }, []);
 
   return state;
 };
 
-export default useLocation;
+export default (isClient ? useLocationBrowser : useLocationServer);
