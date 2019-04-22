@@ -27,9 +27,10 @@
     </a>
     <br />
     必不可少的 <a href="https://reactjs.org/docs/hooks-intro.html">React Hooks</a>集合.</em>
-     <a href="https://github.com/streamich/libreact"><code>libreact</code></a><em>的港口</em>.
+     <a href="https://github.com/streamich/libreact"><code>libreact</code></a><em>的端口</em>.
     <br />
-    原仓库: <a href="https://github.com/streamich/react-use">react-use</a> v8.1.3
+    原仓库: <a href="https://github.com/streamich/react-use">react-use</a> 
+    版本: v8.1.3
   </sup>
   <br />
   <br />
