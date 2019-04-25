@@ -1,8 +1,5 @@
 # `useAsyncFn`
 
-React hook that returns state and a callback for an `async` function or a
-function that returns a promise. The state is of the same shape as `useAsync`.
-
  React钩子返回状态和`async`函数或返回promise的函数的回调。 状态与`useAsync`的形状相同。
 
 ## Usage
